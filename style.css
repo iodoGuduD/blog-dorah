@@ -5,9 +5,13 @@
 }
 
 :root {
-    
+    --fundo: #f5f5f5;
+    --azul: #203440;
+    --verdinho: #47B366;
+    --rose: #FF9999;
+    --cment: #FFFEB3;
 }
 
 body {
-    background-color: #F5F5F5;
+    background-color: var(--fundo);
 }
