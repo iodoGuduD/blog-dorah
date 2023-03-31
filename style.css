@@ -23,6 +23,15 @@ header {
     background-color: var(--rose);
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
+}
+
+.titulo {
+    display: inline;
+}
+
+.titulo h1, .titulo img {
+    padding: 0,5rem;
 }
 
 #special {
