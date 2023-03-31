@@ -16,7 +16,7 @@ body {
     background-color: var(--fundo);
 }
 
-.special {
+#special {
     background-color: var(--azul);
 }
 
