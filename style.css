@@ -23,24 +23,64 @@ header {
     background-color: var(--rose);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2rem;
 }
 
-.titulo {
+.titulo h1, .titulo img {
     display: inline;
+    padding: 4px;
 }
 
-.titulo h1, .titulo img {
-    padding: 0,5rem;
+.item-menu {
+    display: inline-block;
+}
+
+.item-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(87, 87, 87);
+    padding: 0.5rem;
 }
 
 #special {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-areas: "foto foto foto foto foto foto foto foto . . artigos artigos artigos artigos";
     background-color: var(--azul);
     color: white;
 }
 
+.photo {
+    grid-area: foto;
+    padding: 1.2rem;
+    border-right: 1px solid black;
+}
+
 .articles {
-    border: 1px solid black;
+    padding: 3rem;
+    grid-area: artigos;
+    border-left: 1px solid black;
+}
+
+.rel-article {
+    background-color: var(--verdinho);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem 0 0.5rem 0;
+    list-style: none;
+    text-align: center;
+}
+
+.rel-article:hover {
+    cursor: pointer;
+} 
+
+.rel-article a {
+    text-decoration: none;
+    color: black;
 }
 
 footer {
