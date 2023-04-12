@@ -1,2 +1,2 @@
-let buttomArticle = document.querySelectorAll("articles");
+let buttomArticle = document.querySelectorAll(".articles");
 console.log(buttomArticle);
