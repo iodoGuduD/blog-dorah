@@ -24,7 +24,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-height: 2rem;
     padding: 2rem;
+}
+
+.titulo h1 {
+    font-size: 2.5rem;
 }
 
 .titulo h1, .titulo img {
@@ -40,17 +45,23 @@ header {
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem;
-    color: rgb(87, 87, 87);
+    color: black;
     padding: 0.5rem;
+}
+
+.item-menu a:hover {
+    background-color: #d46f6f;
+    padding: 16px;
 }
 
 #special {
     display: grid;
-    width: 100%;
     grid-template-columns: repeat(14, 1fr);
-    grid-template-areas: "foto foto foto foto foto foto foto foto . . artigos artigos artigos artigos";
+    grid-template-areas: "foto foto foto foto foto foto foto foto . artigos artigos artigos artigos artigos";
     background-color: var(--azul);
     color: white;
+    max-width: 100vh;
+    padding: 0 48px 0 48px;
 }
 
 .photo {
