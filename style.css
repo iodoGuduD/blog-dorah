@@ -37,6 +37,10 @@ header {
     padding: 4px;
 }
 
+.menu {
+    width: 350px;
+}
+
 .item-menu {
     display: inline-block;
 }
@@ -60,7 +64,7 @@ header {
     grid-template-areas: "foto foto foto foto foto foto foto foto . artigos artigos artigos artigos artigos";
     background-color: var(--azul);
     color: white;
-    max-width: 100vh;
+    max-width: 100vw;
     padding: 0 48px 0 48px;
 }
 
