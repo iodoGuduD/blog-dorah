@@ -43,6 +43,7 @@ header {
 header nav {
     width: 350px;
     position: absolute;
+    right: 32px;
 }
 
 .item-menu {
