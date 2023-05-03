@@ -93,12 +93,12 @@ header nav {
     margin: 0.5rem 0 0.5rem 0;
     list-style: none;
     text-align: center;
-    transition: 0.5s background-color;
+    transition: 0.5s border;
 }
 
 .rel-article:hover {
     cursor: pointer;
-    background-color: #247e3d;
+    border: 1px solid #247e3d;
 } 
 
 .rel-article a {
