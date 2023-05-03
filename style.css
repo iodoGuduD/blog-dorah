@@ -65,12 +65,13 @@ header nav {
 
 #special {
     display: grid;
-    grid-template-columns: repeat(14, 1fr);
+    grid-template-columns: repeat(14, 96px);
     grid-template-areas: "foto foto foto foto foto foto foto foto . artigos artigos artigos artigos artigos";
     background-color: var(--azul);
     color: white;
     max-width: 100vw;
     padding: 0 48px 0 48px;
+    justify-content: center;
 }
 
 .photo {
@@ -108,5 +109,10 @@ header nav {
 }
 
 footer {
+    padding: 24px 0 32px 0;
     background-color: #6293B3;
+}
+
+.copyright {
+    padding: 0 0 8px 0;
 }
