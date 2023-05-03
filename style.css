@@ -89,16 +89,17 @@ header nav {
 .rel-article {
     background-color: var(--verdinho);
     border-radius: 8px;
+    border: 0px solid var(--verdinho);
     padding: 1rem;
     margin: 0.5rem 0 0.5rem 0;
     list-style: none;
     text-align: center;
-    transition: 0.5s border;
+    transition: 1.5s border;
 }
 
 .rel-article:hover {
     cursor: pointer;
-    border: 1px solid #247e3d;
+    border: 4px solid #247e3d;
 } 
 
 .rel-article a {
