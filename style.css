@@ -55,7 +55,7 @@ header nav {
     font-weight: bold;
     font-size: 1rem;
     color: rgba(80, 80, 80, 50);
-    padding: 0.5rem;
+    padding: 8px;
     transition: color 1s ease;
 }
 
@@ -65,7 +65,7 @@ header nav {
 
 #special {
     display: grid;
-    grid-template-columns: repeat(14, 96px);
+    grid-template-columns: repeat(12, 7vw);
     grid-template-areas: "foto foto foto foto foto foto foto foto . artigos artigos artigos artigos artigos";
     background-color: var(--azul);
     color: white;
@@ -76,12 +76,12 @@ header nav {
 
 .photo {
     grid-area: foto;
-    padding: 1.2rem;
+    padding: 19.2px;
     border-right: 1px solid black;
 }
 
 .articles {
-    padding: 3rem;
+    padding: 38px;
     grid-area: artigos;
     border-left: 1px solid black;
 }
@@ -90,8 +90,8 @@ header nav {
     background-color: var(--verdinho);
     border-radius: 8px;
     border: 0px solid var(--verdinho);
-    padding: 1rem;
-    margin: 0.5rem 0 0.5rem 0;
+    padding: 16px;
+    margin: 8px 0 8px 0;
     list-style: none;
     text-align: center;
     transition: 1.5s border;
