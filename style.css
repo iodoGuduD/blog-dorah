@@ -118,14 +118,14 @@ header nav {
     padding: 16px 64px;
 }
 
-footer {
+.footer {
     padding: 24px 0 32px 0;
     background-color: #6293B3;
 }
 
 .linha {
     background-color: rgb(60, 60, 60);
-    height: 3px;
+    height: 8px;
     box-shadow: 0 2px 3px black;
 }
 
