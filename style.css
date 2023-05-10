@@ -67,6 +67,7 @@ header nav {
     color: rgb(0, 0, 0);
 }
 
+
 #special {
     display: grid;
     grid-template-columns: repeat(12, 7vw);
@@ -97,8 +98,8 @@ header nav {
     background-color: var(--verdinho);
     border-radius: 8px;
     border: 0px solid var(--verdinho);
-    padding: 20px;
-    margin: 8px 0 8px 0;
+    padding: 16px;
+    margin: 12px 0;
     list-style: none;
     text-align: center;
     transition: 0.2s border;
@@ -114,9 +115,22 @@ header nav {
     color: black;
 }
 
+
+.conteudo {
+    display: grid;
+    grid-template-columns: repeat(12, 7vw);
+    grid-template-areas: "span span span text text text span span span";
+    width: 100vw;
+}
+
+.text {
+    grid-area: text;
+}
+
 .lorem {
     padding: 16px 64px;
 }
+
 
 .rodape {
     padding: 24px 0 32px 0;
