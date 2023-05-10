@@ -123,6 +123,10 @@ header nav {
     width: 100vw;
 }
 
+.espaco {
+    grid-area: span; 
+}
+
 .text {
     grid-area: text;
 }
