@@ -79,12 +79,17 @@ header nav {
     justify-content: space-around;
 }
 
+.sections ul {
+    list-style: none;
+}
+
 .item-blog {
     padding: 0 24px;
 }
 
 .item-blog a {
     font-size: 4rem;
+    color: black;
     text-decoration: none;
 }
 
