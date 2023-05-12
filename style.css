@@ -148,7 +148,7 @@ header nav {
 #conteudo {
     display: grid;
     grid-template-columns: repeat(12, 7vw);
-    grid-template-areas: "space space space text text text space space space";
+    align-items: center;
     width: 100vw;
 }
 
