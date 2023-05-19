@@ -175,10 +175,11 @@ header nav {
     margin: 8px 0 0 0;
 }
 
+/*A tag lorem é temporária, pois vale apenas para o index.html (index.css)*/
 .lorem {
     padding: 16px 0;
 }
-
+/*Fim da seção do index.css*/
 
 .rodape {
     padding: 24px 0 32px 0;
