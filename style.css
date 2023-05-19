@@ -87,11 +87,13 @@ header nav {
     grid-area: foto;
     padding: 19.2px;
     border-right: 1px solid black;
+    position: relative;
 }
 
 .photo img {
     height: auto;
-    width: 500px;
+    width: 1/3;
+    min-width: 100px;
     max-width: fit-content;
     padding: 0 0 16px 0;
 }
