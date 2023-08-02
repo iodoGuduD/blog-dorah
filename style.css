@@ -34,6 +34,7 @@ header {
     position: -webkit-sticky;
     top: 0;
     box-shadow: 0 -1px 3px black;
+    z-index: 1;
 }
 
 .titulo h1 {
@@ -91,7 +92,6 @@ header nav {
 }
 
 .photo img {
-    z-index: -1;
     height: auto;
     max-width: fit-content;
     padding: 0 0 16px 0;
