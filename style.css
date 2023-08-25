@@ -191,11 +191,16 @@ header nav {
     max-width: 950px;
     text-align: center;
     list-style: none;
+    margin: auto;
 }
 
 .item-socialmedia {
     font-family: 'Nunito Sans', sans-serif;
     color: black;
+}
+
+.item-socialmedia img {
+    width: 56px;
 }
 
 .linha {
