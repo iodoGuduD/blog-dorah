@@ -192,6 +192,7 @@ header nav {
     text-align: center;
     list-style: none;
     margin: auto;
+    padding: 0 0 12px 0;
 }
 
 .item-socialmedia a {
@@ -202,6 +203,7 @@ header nav {
 
 .item-socialmedia a:hover {
     font-weight: bold;
+    position: static;
 }
 
 .item-socialmedia img {
