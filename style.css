@@ -29,6 +29,7 @@ header {
     justify-content: space-between;
     align-items: center;
     max-height: 2rem;
+    width: 1728px;
     padding: 2rem;
     position: sticky;
     position: -webkit-sticky;
@@ -71,7 +72,7 @@ header nav {
 }
 
 main {
-    width: 1728px
+    width: 1728px;
 }
 
 #special {
@@ -182,6 +183,10 @@ main {
     padding: 16px 0;
 }
 /*Fim da seção do index.css*/
+
+footer {
+    width: 1728px;
+}
 
 .rodape {
     padding: 24px 0 32px 0;
