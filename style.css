@@ -70,10 +70,14 @@ header nav {
     text-decoration: underline;
 }
 
+main {
+    width: 950px
+}
+
 #special {
     display: grid;
     grid-template-columns: repeat(12, 7vw);
-    grid-template-areas: "foto foto foto foto foto foto foto . artigos artigos artigos artigos";
+    grid-template-areas: "foto foto foto foto foto foto foto foto artigos artigos artigos artigos";
     background-color: var(--azul);
     max-width: 100%;
     justify-content: center;
