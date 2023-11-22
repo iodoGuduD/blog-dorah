@@ -47,7 +47,7 @@ header {
 }
 
 header nav {
-    width: 350px;
+    width: auto;
     position: absolute;
     right: 32px;
 }
@@ -129,7 +129,6 @@ header nav {
     text-decoration: none;
     color: black;
 }
-
 
 #links {
     text-align: center;
