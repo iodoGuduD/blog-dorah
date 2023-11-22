@@ -20,16 +20,20 @@
 body {
     background-color: var(--fundo);
     font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
 }
 
 header {
+    width: 1728px;
+}
+
+#COMECO {
     font-family: 'Hind', sans-serif;
     background-color: var(--rose);
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-height: 2rem;
-    width: 1728px;
     padding: 2rem;
     position: sticky;
     position: -webkit-sticky;
@@ -78,7 +82,7 @@ main {
 #special {
     display: grid;
     grid-template-columns: repeat(12, 7vw);
-    grid-template-areas: "foto foto foto foto foto foto foto foto artigos artigos artigos artigos";
+    grid-template-areas: "foto foto foto foto foto foto foto foto foto artigos artigos artigos artigos";
     background-color: var(--azul);
     max-width: 100%;
     justify-content: center;
@@ -109,7 +113,6 @@ main {
 .articles {
     padding: 38px 19.2px 38px 38px;
     grid-area: artigos;
-    border-left: 1px solid black;
 }
 
 .rel-article {
