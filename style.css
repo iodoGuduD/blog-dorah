@@ -20,7 +20,9 @@
 body {
     background-color: var(--fundo);
     font-family: 'Nunito Sans', sans-serif;
-    text-align: center;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
 }
 
 header {
