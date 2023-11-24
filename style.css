@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    width: 100%;
+    width: 100vw;
     background-color: var(--rose);
 }
 
@@ -77,7 +77,7 @@ header nav {
 }
 
 main {
-    width: 100%;
+    width: 100vw;
 }
 
 #special {
@@ -189,7 +189,7 @@ main {
 /*Fim da seção do index.css*/
 
 footer {
-    width: 100%;
+    width: 100vw;
     background-color: #6293B3;
 }
 
