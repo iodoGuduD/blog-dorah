@@ -80,6 +80,7 @@ header nav {
 
 main {
     width: 100vw;
+    background-color: var(--azul);
 }
 
 #special {
@@ -167,6 +168,7 @@ main {
     display: block;
     margin: 34px 10%;
     width: calc(1728px - margin);
+    background-color: var(--fundo);
 }
 
 .item-blog {
