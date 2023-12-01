@@ -23,6 +23,7 @@ body {
     display: flex;
     width: 100vw;
     justify-content: center;
+    flex-direction: column;
 }
 
 header {
@@ -32,7 +33,6 @@ header {
 
 #COMECO {
     font-family: 'Hind', sans-serif;
-    width: 1728px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -197,7 +197,6 @@ footer {
 
 .rodape {
     padding: 24px 0 32px 0;
-    width: 1728px;
 }
 
 .social-media {
