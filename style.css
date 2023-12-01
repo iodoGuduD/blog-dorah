@@ -225,7 +225,7 @@ footer {
 
 .item-socialmedia a:hover {
     font-weight: bold;
-    position: absolute;
+    position: static;
 }
 
 .item-socialmedia img {
