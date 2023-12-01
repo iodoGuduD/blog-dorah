@@ -21,13 +21,13 @@ body {
     background-color: var(--fundo);
     font-family: 'Nunito Sans', sans-serif;
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     flex-direction: column;
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     background-color: var(--rose);
 }
 
@@ -79,7 +79,7 @@ header nav {
 }
 
 main {
-    width: 100vw;
+    width: 100%;
 }
 
 .box-special {
@@ -91,8 +91,9 @@ main {
     grid-template-columns: repeat(12, 7vw);
     grid-template-areas: "foto foto foto foto foto foto foto foto foto artigos artigos artigos artigos";
     background-color: var(--azul);
-    max-width: 1728px;
-    justify-content: center;
+    max-width: 1280px;
+    justify-content: space-around;
+    justify-items: center;
     color: white;
 }
 
@@ -170,7 +171,6 @@ main {
 #conteudo {
     display: block;
     margin: 34px 10%;
-    width: calc(1728px - margin);
     background-color: var(--fundo);
 }
 
@@ -196,7 +196,7 @@ main {
 /*Fim da seção do index.css*/
 
 footer {
-    width: 100vw;
+    width: 100%;
     background-color: #6293B3;
 }
 
@@ -222,7 +222,7 @@ footer {
 
 .item-socialmedia a:hover {
     font-weight: bold;
-    position: static;
+    position: absolute;
 }
 
 .item-socialmedia img {
