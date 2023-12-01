@@ -80,6 +80,9 @@ header nav {
 
 main {
     width: 100vw;
+}
+
+.box-special {
     background-color: var(--azul);
 }
 
